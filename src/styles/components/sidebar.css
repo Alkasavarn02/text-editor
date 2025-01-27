@@ -35,6 +35,10 @@
     gap: 6px;
 }
 
+.footer-side-bar-element {
+    padding-left: 10px;
+}
+
 .footer-side-bar-card {
     background-color: #F5F5F5;
     border-radius: 10px;
