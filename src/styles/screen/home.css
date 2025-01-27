@@ -1,0 +1,275 @@
+.home-screen {
+    height: 100%;
+}
+.home-screen-desktop {
+    grid-template-columns: 250px 1fr 2fr;
+}
+.home-screen-tablet {
+    grid-template-columns: 250px 1fr 1fr;
+}
+.home-screen-phone {
+    grid-template-columns: 250px 1fr 350px;
+}
+
+/* custom styling for home screen */
+.height-65 {
+    height: 65px;
+}
+.height-45 {
+    height: 45px;
+}
+.p-x-14 {
+    padding: 0 14px;
+}
+.p-y-14 {
+    padding: 14px 0;
+}
+.border-down {
+    border-bottom: 2px solid #ccc;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+
+
+
+/* write post section styling */
+.write-post {
+    border: 1px solid #ccc;
+}
+
+.write-post .profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.write-post .right-part {
+    gap: 14px;
+}
+
+.write-post h2.top-section-heading {
+    font-weight: 700;
+    color: #222;
+}
+
+.btn-icon {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.write-post .profile-box {
+    border-left: 2px solid #ccc;
+    padding-left: 14px;
+    gap: 4px;
+}
+
+.toolbar-icons {
+    gap: 23px;
+    color: #777;
+}
+
+
+.icon-container {
+    position: relative;
+}
+
+.toolbar-Ai {
+    border-left: 2px solid #ccc;
+    padding-left: 23px;
+}
+
+.ai-dropDown {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    top: 35px;
+    left: 190px;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 8px;
+}
+
+.aiDropDown-icon {
+    font-size: 15px;
+}
+
+.item-text-size {
+    font-size: 17px;
+}
+
+.text-area-box {
+    height: calc(100vh - 223px);
+    overflow-y: auto;
+}
+.text-area-box .textarea {
+    width: 100%;
+    height: 96%;
+    border: none;
+    outline: none;
+    padding: 14px;
+}
+
+.text-tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px 23px;
+    gap: 10px;
+    z-index: 99;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.cross {
+    border-left: 2px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.text-tooltip .tooltip-font {
+    height: 25px;
+    border-radius: 5px;
+}
+.text-tooltip .tooltip-font .custom-image {
+    width: 25px;
+}
+
+.text-tooltip .active-font {
+    background-color: #3FA2F6;
+    color: #fff;
+}
+
+
+/* preview post section styling */
+.preview-section {
+    border: 1px solid #ccc;
+}
+
+.devices {
+    gap: 23px;
+}
+.device-icon {
+    font-size: 22px;
+}
+.active-device {
+    color: #3FA2F6;
+    background-color: #cfe0ef;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.preview-post {
+    background-color: #ddd;   
+    padding: 14px 0;
+    height: calc(100% - 66px);
+}
+
+.card {
+    margin-top: 14px;
+    padding: 9px;
+    border-radius: 9px;
+    background-color: #fff;    
+}
+
+.card-desktop {
+    width: 550px;
+}
+.card-tablet {
+    width: 70%;
+}
+
+.card-phone {
+    width: 90%;
+}
+
+.card-phone .profile-section {
+    flex-direction: column;
+}
+
+.card-profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card-phone .card-profile {
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.card .dot {
+    width: 5px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.profile-info {
+    width: calc(100% - 70px);
+    line-height: 1.3;
+}
+.card-phone .profile-info {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-info h3 {
+    font-weight: 600;
+}
+.profile-info div {
+    font-size: 14px;
+}
+
+.card-phone .online {
+    justify-content: center;
+}
+
+.card-content {
+    min-height: 20px;
+    height: auto;
+}
+
+.card-phone .reactions-box {
+    flex-direction: column;
+}
+
+.reactions span {
+    font-size: 14px;
+}
+.reaction-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.like {
+    background-color: #3FA2F6;
+}
+.clap {
+    background-color: #089620;
+}
+.support {
+    background-color: rgb(174, 34, 174);
+}
+.heart {
+    background-color: rgb(216, 79, 79);
+}
+
+.card-actions {
+    gap: 9px;
+    padding-top: 5px;
+}
+.card-phone .card-actions {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-phone .card-actions .action-icon-box {
+    width: 45%;
+}
+.card-actions .action-icon {
+    font-size: 20px;
+}
